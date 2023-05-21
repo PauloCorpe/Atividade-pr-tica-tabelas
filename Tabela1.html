@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela1</title>
+</head>
+<style>
+  body{display: grid;
+  justify-content: center;
+  }
+  table{
+  border-collapse:collapse;
+  }
+  td{
+  Border:1px solid black;
+  width:150px;
+  height:50px;
+  align:center
+  }
+  tr{align:center;}
+  </style>
+  <body>
+    <table>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td style="text-align:center;">4</td>
+            <td style="text-align:center;">5</td>
+            <td style="text-align:center;">6</td>
+          </tr>
+          <tr>
+            <td style="text-align:right;">7</td>
+            <td style="text-align:right;">8</td>
+            <td style="text-align:right;">9</td>
+          </tr>
+    </table>
+  <br>
+    <table>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td style="text-align:center;" colspan="3";>4</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+    </table>
+  <br>
+    <table>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td style="text-align:center;" rowspan="3">3</td>
+          </tr>
+          <tr>
+            <td style="text-align:center;" colspan="2";>4</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+    </table>
+  </body>
+  </html>
